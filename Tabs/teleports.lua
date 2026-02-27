@@ -1,4 +1,4 @@
-return function(Window)
+return function(Window, Rayfield)
 
    local TeleTab = Window:CreateTab("👾 Teleports", nil)
    local TeleSection = TeleTab:CreateSection("Places")
