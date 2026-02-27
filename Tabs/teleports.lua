@@ -24,5 +24,4 @@ return function(Window)
       end,
    })
 
-   -- Add the rest here easily
-end
+   end
