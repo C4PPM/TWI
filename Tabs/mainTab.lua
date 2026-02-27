@@ -1,4 +1,4 @@
-return function(Window)
+return function(Window, Rayfield)
 
    local MainTab = Window:CreateTab("🏠 Home", nil)
    local MainSection = MainTab:CreateSection("Main")
