@@ -32,6 +32,6 @@ Rayfield:Notify({
    Duration = 6.5,
 })
 
--- Load Tabs From GitHub
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOURNAME/TWI-Hub/main/tabs/mainTab.lua"))()(Window)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOURNAME/TWI-Hub/main/tabs/teleports.lua"))()(Window)
+-- Load Tabs
+loadstring(game:HttpGet("https://raw.githubusercontent.com/C4PPM/TWI/main/tabs/mainTab.lua"))()(Window, Rayfield)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/C4PPM/TWI/main/tabs/teleports.lua"))()(Window, Rayfield)
